@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frist Project</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/elements.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Lobster+Two:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label for="close-menu" class="close-menu-label" title="close menu"></label>
+    
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1>
+                <a href="#">LOGO</a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#context">Context</a></li>
+                    <li><a href="#grid-one">Ideas</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#table">Table</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <section id="intro" class="intro main-bg place menu-spacing">
+        <div class="intro-content main-content">
+            <div class="intro-text-content">    
+                <h2 class="intro-title">My frist front-end project</h2>
+                <p>Welcome to my frist front-end project. I'm not good(yet) with design, but i hope not to hurt your eyes. That project uses only HTML and CSS because that's what i'm studying right now. As soon as i start to study Javascript and React i will improve so much that i will   cringe to see my old projects.</p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/feeling-proud.svg" alt="A man sitting on a table with a computer on his side">
+            </div>
+        </div>
+    </section>
+    
+    <section id="context" class="context main-content white-bg place">   
+            <div class="context-content place">
+                <h2>That's not a original project</h2>
+                <p>This project is only a way to practice all the things i learned so far. The course i bought basically teached me how to build this landing page from zero and i think i learned a lot from it. Worth.</p>
+                <h3>Now i will improve and build original projects.</h3>
+                <p> I have some ideas in mind but i don't have knowledge enough to put in practice, so i will study more, practice more, until i have everything to build my own things. I don't want to just to get good at it, i want to become known at it. Specially to recruiters. </p>
+                <p>Just so I don't lose the habit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, magnam dolores. Nobis laboriosam itaque numquam tempore et voluptatum, porro quae? Asperiores numquam nemo libero quis omnis sapiente, impedit culpa voluptatum!</p>
+            </div>
+    </section>
+    
+    <section id="grid-one" class="grid-one place main-bg">
+        <div class="grid-one-content main-content">
+            <h2 class="grid-main-heading">My ideas</h2>
+            <p class="grid-description">I think</p>
+
+            <div class="grid">
+                <article>
+                    <h3>Reading</h3>
+                    <p>I want to create a site that can help you imagine the things you're reading better. You can input a paragaph or even a whole page of your favorite book and the site will going to recognize some words and transform them into clickable triggers that display effects and sounds to the user.</p>
+                </article>    
+                <article>
+                    <h3>Clone</h3>
+                    <p>I heard that trying to clone some sites helps you improve a lot, so i'm deciding who's gonna be the victim. It will be a tough challenge in my opinion, it's harder when your creativity is limited.</p>
+                </article>
+                <article>
+                    <h3>Gaming</h3>
+                    <p>I love playing games, specially competitive ones, so a will build a project to help people to improve in <strong>any</strong> game.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="grid-one place white-bg menu-spacing">
+        <div class="grid-one-content main-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">I think</p>
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash">
+                </div>    
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360" alt="random image from unsplash?r=3">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash">
+                </div>    
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360" alt="random image from unsplash?r=6">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="table" class="main-bg place context">   
+        <div class="context-content place">
+            <h2>Random Table</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nobis qui, quisquam dolore nihil cum eum recusandae sequi nam numquam voluptatibus consectetur, sed libero aperiam repellendus dignissimos perspiciatis iusto tenetur?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae ut tempore saepe totam sed consequatur laudantium quam natus sequi adipisci pariatur unde commodi quibusdam voluptas, quo iste, necessitatibus maiores.</p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="intro white-bg place menu-spacing">
+        <div class="intro-content main-content">
+            <div class="intro-text-content">    
+                <h2 class="intro-title">Contact us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aliquam repellat tempora culpa quisquam consectetur, enim suscipit modi impedit incidunt sit dolores officiis eveniet est et delectus vitae. Natus, fugit!</p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/contact-us.svg" alt="A man sitting on a table with a computer on his side">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+
+                    <div class="form-group">
+                        <label for="frist-name">Frist name</label>
+                        <input type="text" name="frist-name" id="frist-name" placeholder="Your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your e-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="email">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit">Send message</button>
+                    </div>
+
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="main-bg footer">
+        <p class="main-content">Feito com carinho por Luis Claudio Brasil ❤</p>
+    </footer>
+
+    <a href="#intro" class="top-button">
+        <div>↑</div>
+    </a>
+</body>
+</html>
